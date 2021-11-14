@@ -1,0 +1,15 @@
+\contentsline {chapter}{\numberline {1}Mass of retardant}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}3000 gallons}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}5000 gallons}{2}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Gravity drop}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Required retardant exit area}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Methodology}{3}{subsection.2.1.1}%
+\contentsline {subsubsection}{Instantaneous mass flow rate}{3}{section*.2}%
+\contentsline {subsubsection}{Finding the required exit area}{3}{section*.3}%
+\contentsline {subsection}{\numberline {2.1.2}Matlab}{4}{subsection.2.1.2}%
+\contentsline {subsubsection}{Code}{4}{section*.4}%
+\contentsline {subsubsection}{Output of code}{5}{section*.5}%
+\contentsline {chapter}{\numberline {3}Bernoulli simulation}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Methodology}{6}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}rearranging bernoulli}{6}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}surface area of water at h}{6}{subsection.3.1.2}%

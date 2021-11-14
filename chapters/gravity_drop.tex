@@ -1,0 +1,54 @@
+\chapter{Gravity drop}
+\section{Required retardant exit area}
+\subsection{Methodology}
+
+%\subsubsection{Required average mass flow rate}
+%The goal is to release all the retardant in the tank in 8 seconds.
+%Knowing the mass of retardant and the time required to release the retardant the average mass flow rate over the time $\overline{\dot{m}}$ can be calculated:
+
+%\begin{equation}
+%\label{eqn:massflow}
+%\begin{split}
+ %\overline{\dot{m}} = \frac{m}{t}
+%\end{split}
+%\end{equation}
+%where: \\
+%\indent m = mass of retardant (kg) \\ 
+%\indent t = time retardant needs to be released in (s)
+
+\subsubsection{Instantaneous mass flow rate}
+The Instantaneous mass flow rate can be found using this equation:
+
+\begin{equation}
+\label{eqn:inst_massflow}
+\begin{split}
+  \dot{m} = \rho v A 
+\end{split}
+\end{equation}
+where: \\
+\indent $\rho$ = density of retardant ($kg/m^{3}$) \\ 
+\indent $v$ = velocity of retardant ($m/s$) \\ 
+\indent $A$ = area of escape of retardant ($m/s$) \\ 
+
+\subsubsection{Finding the required exit area}
+\noindent Using equation \ref{eqn:inst_massflow} for a given $A$ we can find the mass flow at each time step using the velocity at that time step.
+This can be integrated with respect to time to find the total mass that flowed through the exit area over the duration.
+The mass flow increases linearly over the duration, because the velocity is linear. This means the integration can be done using the area of the triangle under the graph. \\ 
+
+\noindent Using Matlab the total mass that flows though the exit can be calculated for a range of values of A.
+Then the smallest value of A that can reach the required total mass flow can be found.
+
+
+
+
+\subsection{Matlab}
+\subsubsection{Code}
+The Matlab code to calculate the required exit area for volumes of 3000, 4000 and 5000 gallons is shown below:
+\lstinputlisting{tank_calculations.m}
+
+\subsubsection{Output of code}
+
+3000 gallons of retardant requires 0.043 m2 area \\
+4000 gallons of retardant requires 0.058 m2 area \\
+5000 gallons of retardant requires 0.072 m2 area \\
+>>

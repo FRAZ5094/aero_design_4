@@ -1,0 +1,31 @@
+\chapter{Bernoulli simulation}
+\section{Methodology}
+\subsection{rearranging bernoulli}
+\begin{equation}
+\label{eqn:bernoulli}
+\begin{split}
+  p_{top} + \frac{1}{2} \rho V_{top}^{2} + \rho g h_{top} & =  p_{bot} + \frac{1}{2} \rho V_{bot}^{2} + \rho g h_{bot}  \\
+  \Delta{P} + \rho \Delta{h} + \frac{1}{2} & = \frac{1}{2} \rho V_{bot}^{2} \\
+  2 \Delta{P} + \rho (2 \Delta{h} + V_{top}^{2}) & = \rho V^2_{bot} \\
+  \frac{2 \Delta{P}}{\rho} + 2 \Delta{h} + V_{top}^{2} &= V_{bot}^{2} \\
+  V_{bot} &= \sqrt{\frac{2 \Delta{P}}{\rho} + 2h + V_{top}^{2}} \\
+\end{split}
+\end{equation}
+Done iteratively:
+\begin{equation}
+\label{eqn:vtop_iterative}
+\begin{split}
+  V_{bot}(t) = \sqrt{\frac{2 \Delta{P}}{\rho} + 2h(t) + V_{top}^{2}(t)}
+\end{split}
+\end{equation}
+
+%\subsection{surface area of water at h}
+%equation of circle:
+%\begin{equation}
+%\label{eqn:vtop_iterative}
+%\begin{split}
+  %x^{2} + (y-h)^{2} &= r^{2} \\
+  %x^{2} + h^{2} - 2hr + r^{2} = r^{2} \\
+  %x^{2} &= 2r^{2} + 2hr + h^{2} \\
+%\end{split}
+%\end{equation}

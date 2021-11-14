@@ -1,0 +1,45 @@
+\documentclass{report}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage[numbered,framed]{matlab-prettifier}
+\usepackage{filecontents}
+\usepackage{import}
+\usepackage{hyperref}
+\usepackage{verbatim}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan
+}
+
+\lstset{
+  style              = Matlab-editor,
+  basicstyle         = \mlttfamily\small,
+  escapechar         = ",
+  mlshowsectionrules = true,
+}
+
+\author{Fraser Morrison, Tomas Coelho and Anton Soderqvist}
+\title{Retardant tank calculations}
+
+\begin{document}
+
+\maketitle
+\setcounter{tocdepth}{3}
+\tableofcontents
+
+\subimport{chapters/}{retardant_mass.tex}
+\subimport{chapters/}{gravity_drop.tex}
+\subimport{chapters/}{bernoulli_calculation.tex}
+
+
+
+
+
+%\section{Pressurized drop}
+
+%\section{Dimensions of Tank}
+
+\end{document}
