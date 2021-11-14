@@ -47,4 +47,5 @@ for i=1:1:height(Data)
     %Inertia stuff
     I.xx= I.xx - (Data{i,2} * ((Data{i,4}-cg.y)^2 + (Data{i,5}-cg.z)^2));
 end
+
 display(I.xx);
