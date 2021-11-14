@@ -1,2 +1,2 @@
-Name,mass (kg),x (m),y (m),z (m)
-Boss-Extrude2,18000,4,1.5,3.5
+Name,mass (kg),cg_x (m),cg_y (m),cg_z (m),L (m),W (m),H (m)
+Boss-Extrude2,18000,3.5,4,1.5,3,2,3
