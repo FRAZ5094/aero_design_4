@@ -1,2 +1,3 @@
 Name,mass (kg),cg_x (m),cg_y (m),cg_z (m),L (m),W (m),H (m)
-Boss-Extrude2,6000,4,3.75,1,2,1.5,2
+Boss-Extrude3,-6000,4,3.75,1,2,1.5,2
+Cut-Extrude1,1500,1,2.25,1.75,2,1.5,0.5

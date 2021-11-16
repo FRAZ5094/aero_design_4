@@ -4,20 +4,20 @@ close all
 format long g
 Data = readtable("aircraft_items.csv"); %import data from csv
 
-mass=36000;
-cg.x=2.75;
-cg.y=1.875;
+mass=30000;
+cg.x=2.5;
+cg.y=1.5;
 cg.z=1;
 
-I.xx=60937.5;
-I.xy=16875;
+I.xx=32500;
+I.xy=0;
 I.xz=0;
 I.yx=I.xy;
-I.yy=87750;
+I.yy=72500;
 I.yz=0;
 I.zx=I.xz;
 I.zy=I.yz;
-I.zz=124687.5;
+I.zz=85000;
 
 
 %calculating new center of mass pos
@@ -76,5 +76,5 @@ for i=1:1:height(Data)
     I.xz= I.xz - m*delta_x*delta_z;
 end
 
-
+cg_new
 I=[I.xx I.xy I.xz; I.xy I.yy I.yz; I.xz I.yz I.zz]
