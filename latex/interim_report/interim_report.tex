@@ -1,15 +1,19 @@
-\documentclass{report}
+\documentclass[12pt,titlepage,oneside]{book}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
 \usepackage[numbered,framed]{matlab-prettifier}
 \usepackage{filecontents}
 \usepackage{import}
 \usepackage{hyperref}
+\usepackage{graphicx}
 \usepackage{verbatim}
+\usepackage[scaled]{helvet} %  helvetica for sanserif, scaled 95% by default
+\usepackage[top=1.8cm, bottom=1.8cm]{geometry}
+\usepackage[onehalfspacing]{setspace}  % gives one-and-a-half line spacing
 
 \hypersetup{
     colorlinks=true,
-    linkcolor=blue,
+    linkcolor=black,
     filecolor=magenta,      
     urlcolor=cyan
 }
@@ -26,6 +30,10 @@
 
 \begin{document}
 
+\title{
+\includegraphics[width=0.6\textwidth]{GlaLogo.pdf} \\
+Group 8, Interim report
+}
 \maketitle
 \tableofcontents
 
