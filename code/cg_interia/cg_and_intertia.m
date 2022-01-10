@@ -5,25 +5,29 @@ format long g
 
 tic %start timing run time
 
-Data = readtable("aircraft_items.csv"); %import data from csv
+Data = readtable("aircraft_items.xlsx"); %import data from csv
 
-mass=30000; %starting mass
-cg.x=2.5; %starting x position
-cg.y=1.5; %starting x position
-cg.z=1; %starting x position
+mass=44225; %starting mass in kg
+
+absoulute_cog_to_nose=13.8+1.81; %distance from note to the start of route, used to 
+
+cg.x=absoulute_cog_to_nose+1.23; %starting cg x position
+cg.y=0; %starting cg y position1.3558179619
+cg.z=0; %starting cg z position
 
 %starting moment of inertia tensor values
+I_convert=1.3558179619; %slug*ft^2 to kg/m
 
-I.xx=32500;
-I.xy=0;
-I.xz=0;
+%not sure what axis this is aligned to
+I.xx=533965*I_convert;
+I.xy=0*I_convert;
+I.xz=59261*I_convert;
 I.yx=I.xy;
-I.yy=72500;
-I.yz=0;
+I.yy=607525*I_convert;
+I.yz=0*I_convert;
 I.zx=I.xz;
 I.zy=I.yz;
-I.zz=85000;
-
+I.zz=1019696*I_convert;
 
 %calculating new cg
 
