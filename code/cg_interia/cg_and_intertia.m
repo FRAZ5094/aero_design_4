@@ -11,7 +11,7 @@ mass=44225; %starting mass in kg
 
 absoulute_cog_to_nose=13.8+1.81; %distance from note to the start of route, used to 
 
-cg.x=absoulute_cog_to_nose+1.23; %starting cg x position
+cg.x=-1*(absoulute_cog_to_nose+1.23); %starting cg x position
 cg.y=0; %starting cg y position
 cg.z=0; %starting cg z position
 
