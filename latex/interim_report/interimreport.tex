@@ -1,22 +1,26 @@
 \documentclass[12pt,titlepage,oneside]{book}
+\usepackage{apacite}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
 \usepackage[numbered,framed]{matlab-prettifier}
 \usepackage{filecontents}
 \usepackage{import}
-\usepackage{hyperref}
+%\usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{verbatim}
 \usepackage[scaled]{helvet} %  helvetica for sanserif, scaled 95% by default
 \usepackage[top=1.8cm, bottom=1.8cm]{geometry}
 \usepackage[onehalfspacing]{setspace}  % gives one-and-a-half line spacing
+\usepackage{natbib}
 
-\hypersetup{
-    colorlinks=true,
-    linkcolor=black,
-    filecolor=magenta,      
-    urlcolor=cyan
-}
+\setlength\parindent{0pt}
+
+%\hypersetup{
+    %colorlinks=true,
+    %linkcolor=black,
+    %filecolor=magenta,      
+    %urlcolor=cyan
+%}
 
 \lstset{
   style              = Matlab-editor,
@@ -35,34 +39,19 @@
 Group 8, Interim report
 }
 \maketitle
+\setcounter{tocdepth}{1}
 \tableofcontents
 
-\chapter{Introduction}
-Introduction here
+\subimport{chapters/}{introduction}
+\subimport{chapters/}{market_analysis_and_concept_selection}
+\subimport{chapters/}{concept_summary_and_aircraft_layout}
+\subimport{chapters/}{design_analysis_and_feasibility}
+\subimport{chapters/}{draft_plans_for_the_prelimary_design_stage}
+\subimport{chapters/}{conclusions}
+\subimport{chapters/}{project_plan}
 
-\chapter{Market Analysis and Concept Selection}
-Market Analysis and Concept Selection here
 
-\chapter{Concept Summary and Aircraft Layout}
- Concept Summary and Aircraft Layout here
-
-\chapter{Design Analysis and Feasibility}
-\section{Safety}
-Safety here
-\section{Center of gravity}
-Center of gravity here
-\section{Tank Pressure}
-Tank pressure here
-\section{Structural Support}
-Structural Support here
-
-\chapter{Draft Plans for the Preliminary Design Stage}
-Draft Plans for the Preliminary Design Stage here
-
-\chapter{Conclusions}
-Conlusions here
-
-\chapter{Project Plan}
-project plan here
+\bibliographystyle{apacite}
+\bibliography{interimreport} % Entries are in the refs.bib file
 
 \end{document}

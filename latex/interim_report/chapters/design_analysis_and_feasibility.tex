@@ -1,0 +1,67 @@
+\chapter{Design Analysis and Feasibility}
+\section{Safety}
+Safety here
+
+
+
+\section{Center of gravity (Fraser and Rafał)}
+
+Since the RJ100 is a commerial airctraft, when it's converted to a firefighter there will be lots of unnecessary weight, that has no use for a firefigher aircraft.
+For example passenger seats, Kitchen and cabin bins ect.
+This allows the plane to take more retardant, making it better at its job.
+But in removing all this unnecessary weight, the CG of the plane will change as well.
+The RJ100 has an acceptable safe range for the center of gravity in terms of the chord length which is INSERT VALUE to INSERT VALUE.
+The plane cannot fly safely if the value of the center of gravity along the x-axis of the plane is outwith this range.
+The center of gravity also has to within this range at every point from the tank being full to empty.
+
+\subsection{Method of Analysis}
+The process of calculating center of gravity of an object is relatively simple but can be time consuming by hand if there are a lot of different things that are being removed from the plane.
+Hand calculations would also make it harder to change individual values, as we need the ability to change the weight and/or the positions of objects in the airplane to help achieve the safe center of gravity position. \\
+
+According to \cite{baker2020engineering} the formula for the x,y and z value of the center of gravity are shown in the equation \ref{eqn:cog_formula}:
+
+\begin{equation}
+\begin{split}
+  \bar{x} = \frac{\sum{ \bar{x_{i}} m_{i} }}{ \sum{ m_{i}}} \
+  \bar{y} = \frac{\sum{ \bar{y_{i}} m_{i} }}{ \sum{ m_{i}}} \
+  \bar{z} = \frac{\sum{ \bar{z_{i}} m_{i} }}{ \sum{ m_{i}}} \
+\end{split}
+\label{eqn:cog_formula}
+\end{equation}
+
+Since the weight of the aircraft and the cg position is already known with all the unnecessary weight that needs to be removed the aircraft can effectively be represented in the formula as a particle with a known mass and position.
+Then the new cg of the aircraft can be found using the formula \ref{eqn:cog_formula}, but the mass of all the objects that need to be removed are negative, since the old cg and mass of the plane already have these objects.
+
+
+
+\subsection{Matlab code}
+Code was written in Matlab to calculate the new cg position by implementing equation \ref{eqn:cog_formula}
+
+\lstinputlisting{../../code/cg_interia/cg_and_intertia2.m}
+
+\subsection{Consequence of result of code on design decisions}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Delivery release system / Tank Pressurisation}
+Tank pressure here
+\section{Structural Support}
+Structural Support here

@@ -1,0 +1,29 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Baker%
+\ \BBA {} Haynes%
+}{%
+Baker%
+\ \BBA {} Haynes%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+baker2020engineering}
+\APACinsertmetastar {%
+baker2020engineering}%
+\begin{APACrefauthors}%
+Baker, D\BPBI W.%
+\BCBT {}\ \BBA {} Haynes, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Engineering Statics: Open and Interactive} {Engineering
+  statics: Open and interactive}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

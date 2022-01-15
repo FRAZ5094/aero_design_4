@@ -5,20 +5,19 @@ format long g
 
 tic %start timing run time
 
-Data = readtable("aircraft_items.xlsx"); %import data from csv
+Data = readtable("aircraft_items.xlsx"); %import data from excel file
 
-mass=44225; %starting mass in kg
+starting_mass=25600; %%starting mass in kg (operational empty weight 25600)(Operational zero fuel mass 37875)
 
-absoulute_cog_to_nose=13.8+1.81; %distance from note to the start of route, used to 
+absoulute_cog_to_nose=14 + 1.719; %%distance from nose to the wing start + x_mgc 
 
-cg.x=-1*(absoulute_cog_to_nose+1.23); %starting cg x position
+cg.x=-1*(absoulute_cog_to_nose+1.239056); %% starting cg x position
 cg.y=0; %starting cg y position
 cg.z=0; %starting cg z position
 
 %starting moment of inertia tensor values
 I_convert=1.3558179619; %slug*ft^2 to kg/m
 
-%not sure what axis this is aligned  to
 I.xx=533965*I_convert;
 I.xy=0*I_convert;
 I.xz=59261*I_convert;
@@ -35,21 +34,29 @@ cg_sum.x=mass*cg.x;
 cg_sum.y=mass*cg.y;
 cg_sum.z=mass*cg.z;
 
+end_mass=mass;
+
 for i=1:1:height(Data)
+    %extract mass,x,y and z values from file for object
+    mass=Data{i,2};
+    x=Data{i,3};
+    y=Data{i,4};
+    z=Data{i,5};
     
     %take away object mass
-    mass=mass - Data{i,2};
+    end_mass=end_mass - Data{i,2};
     
-    cg_sum.x=cg_sum.x - (Data{i,2}*Data{i,3});
-    cg_sum.y=cg_sum.y - (Data{i,2}*Data{i,4});
-    cg_sum.z=cg_sum.z - (Data{i,2}*Data{i,5});
+    cg_sum.x=cg_sum.x - (mass*x);
+    cg_sum.y=cg_sum.y - (mass*y);
+    cg_sum.z=cg_sum.z - (mass*z);
     
 end
 
-%new cg position
-cg_new.x=cg_sum.x/mass;
-cg_new.y=cg_sum.y/mass;
-cg_new.z=cg_sum.z/mass;
+%calculate new cg position
+
+cg_new.x=cg_sum.x/end_mass;
+cg_new.y=cg_sum.y/end_mass;
+cg_new.z=cg_sum.z/end_mass;
 
 %translate starting I to new cg
 
@@ -102,3 +109,7 @@ toc %stop timing run time
 cg_new
 
 I=[I.xx I.xy I.xz; I.xy I.yy I.yz; I.xz I.yz I.zz]
+
+cg_from_mac = cg_new.x + absoulute_cog_to_nose %%
+fraction_of_mac = cg_from_mac / - 3.404 %%
+
