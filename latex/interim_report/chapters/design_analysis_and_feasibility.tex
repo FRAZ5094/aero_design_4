@@ -33,31 +33,16 @@ Since the weight of the aircraft and the cg position is already known with all t
 Then the new cg of the aircraft can be found using the formula \ref{eqn:cog_formula}, but the mass of all the objects that need to be removed are negative, since the old cg and mass of the plane already have these objects.
 
 
-
 \subsection{Matlab code}
 Code was written in Matlab to calculate the new cg position by implementing equation \ref{eqn:cog_formula}
 
-\lstinputlisting{../../code/cg_interia/cg_and_intertia2.m}
+\lstinputlisting{../../../code/cg_interia/cg2.m}
+
+The data for the objects that are going to be removed from the airplane are in the excel file named “aircraftitems.xlsx” on line 8 the code and contain the mass and the x,y, and z position of the center of gravity of each other objects.
+The axis used for the positions is the standard aircraft axis with the origin at the nose of the aircraft.
+Because the code assumes each of the objects are being taken away from the plane, the tank can be added in to move the center of gravity by giving it a negative mass in the excel file.
 
 \subsection{Consequence of result of code on design decisions}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -30,15 +30,16 @@ I.zz=1019696*I_convert;
 
 %calculating new cg
 
-cg_sum.x=mass*cg.x;
-cg_sum.y=mass*cg.y;
-cg_sum.z=mass*cg.z;
+cg_sum.x=starting_mass*cg.x;
+cg_sum.y=starting_mass*cg.y;
+cg_sum.z=starting_mass*cg.z;
 
-end_mass=mass;
+end_mass=starting_mass;
 
 for i=1:1:height(Data)
     %extract mass,x,y and z values from file for object
     mass=Data{i,2};
+
     x=Data{i,3};
     y=Data{i,4};
     z=Data{i,5};
@@ -57,6 +58,12 @@ end
 cg_new.x=cg_sum.x/end_mass;
 cg_new.y=cg_sum.y/end_mass;
 cg_new.z=cg_sum.z/end_mass;
+
+%print new cg position
+cg_new
+
+%print new mass
+end_mass
 
 %translate starting I to new cg
 

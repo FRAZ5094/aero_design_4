@@ -3,9 +3,7 @@ clear
 close all
 format long g
 
-tic %start timing run time
-
-Data = readtable("aircraft_items.xlsx"); %import data from csv
+Data = readtable("aircraft_items.xlsx"); %import data from excel
 
 mass=44225; %starting mass in kg
 
@@ -50,6 +48,12 @@ end
 cg_new.x=cg_sum.x/mass;
 cg_new.y=cg_sum.y/mass;
 cg_new.z=cg_sum.z/mass;
+
+%print new position of center of gravity
+cg_new
+
+%print new mass
+mass
 
 %translate starting I to new cg
 
@@ -96,8 +100,6 @@ for i=1:1:height(Data)
     I.xz= I.xz - m*delta_x*delta_z;
     
 end
-
-toc %stop timing run time
 
 cg_new
 
