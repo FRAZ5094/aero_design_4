@@ -6,17 +6,18 @@ Safety here
 
 \section{Center of gravity (Fraser and Rafał)}
 
-Since the RJ100 is a commerial airctraft, when it's converted to a firefighter there will be lots of unnecessary weight, that has no use for a firefigher aircraft.
-For example passenger seats, Kitchen and cabin bins ect.
-This allows the plane to take more retardant, making it better at its job.
-But in removing all this unnecessary weight, the CG of the plane will change as well.
+Seeing as the RJ100 is originally a commercial aircraft, converting it to a firefighter aircraft would result in a lot of unnecessary weight, 
+for example passenger seats, kitchen and cabin bins ect.
+This allows the plane to carry more retardant, meaning better performance for this specific application.
+However, by removing the excess weight, the center of gravity is shifted and thus will need to be recalculated.
 The RJ100 has an acceptable safe range for the center of gravity in terms of the chord length which is INSERT VALUE to INSERT VALUE.
 The plane cannot fly safely if the value of the center of gravity along the x-axis of the plane is outwith this range.
-The center of gravity also has to within this range at every point from the tank being full to empty.
+The center of gravity also has to remain within this range before, during and after the ejection of retardant.
 
 \subsection{Method of Analysis}
-The process of calculating center of gravity of an object is relatively simple but can be time consuming by hand if there are a lot of different things that are being removed from the plane.
-Hand calculations would also make it harder to change individual values, as we need the ability to change the weight and/or the positions of objects in the airplane to help achieve the safe center of gravity position. \\
+The process of calculating center of gravity is relatively trivial but can be time consuming if done if done by hand,
+especially in this case where there are lots of components being removed, greatly altering the mass.
+Using MATLAB instead of hand calculations greatly simplifies the process of changing individual values such as the mass, or the position of objects in the plane, to help achieve the safe center of gravity position. \\ 
 
 According to \cite{baker2020engineering} the formula for the x,y and z value of the center of gravity are shown in the equation \ref{eqn:cog_formula}:
 
@@ -29,18 +30,19 @@ According to \cite{baker2020engineering} the formula for the x,y and z value of 
 \label{eqn:cog_formula}
 \end{equation}
 
-Since the weight of the aircraft and the cg position is already known with all the unnecessary weight that needs to be removed the aircraft can effectively be represented in the formula as a particle with a known mass and position.
-Then the new cg of the aircraft can be found using the formula \ref{eqn:cog_formula}, but the mass of all the objects that need to be removed are negative, since the old cg and mass of the plane already have these objects.
-
+The aircraft mass and center of gravity, before excess weight removal, can effectively be represented in equation \ref{eqn:cog_formula} as a particle with known mass and position.
+By representing the aircraft in this way, the center of gravity after the removal of unnecessary weight can be calculated.
+The mass of the components to be removed are taken as negative, removing them from the original total mass.
 
 \subsection{Matlab code}
-Code was written in Matlab to calculate the new cg position by implementing equation \ref{eqn:cog_formula}
+Applying the method above, code was written in MATLAB to to calculate the new cg position through implementing equation \ref{eqn:cog_formula}.
+This can be seen below:
 
 \lstinputlisting{../../../code/cg_interia/cg2.m}
 
-The data for the objects that are going to be removed from the airplane are in the excel file named “aircraftitems.xlsx” on line 8 the code and contain the mass and the x,y, and z position of the center of gravity of each other objects.
-The axis used for the positions is the standard aircraft axis with the origin at the nose of the aircraft.
-Because the code assumes each of the objects are being taken away from the plane, the tank can be added in to move the center of gravity by giving it a negative mass in the excel file.
+The data for the components to be removed were formatted into an excel file named “aircraftitems.xlsx” and then imported to be represented in the variable “Data”.
+This data included each component's mass and it's center of gravity position.
+These position's were taken relative to the standard aircraft axis with the origin at the nose of the aircraft.
 
 \subsection{Consequence of result of code on design decisions}
 
