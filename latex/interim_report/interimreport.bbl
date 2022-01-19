@@ -26,4 +26,33 @@ Baker, D\BPBI W.%
 
 \PrintBackRefs{\CurrentBib}
 
+\bibitem [\protect \citeauthoryear {%
+Liu%
+, Villavicencio%
+\BCBL {}\ \BBA {} Soares%
+}{%
+Liu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+liu2013failure}
+\APACinsertmetastar {%
+liu2013failure}%
+\begin{APACrefauthors}%
+Liu, B.%
+, Villavicencio, R.%
+\BCBL {}\ \BBA {} Soares, C\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Failure characteristics of strength-equivalent aluminium
+  and steel plates in impact conditions} {Failure characteristics of
+  strength-equivalent aluminium and steel plates in impact conditions}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Analysis and Design of Marine Structures, vol.,
+  no}{}{}{167}.
+\PrintBackRefs{\CurrentBib}
+
 \end{thebibliography}
