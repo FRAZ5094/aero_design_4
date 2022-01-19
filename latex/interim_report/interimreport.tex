@@ -5,7 +5,7 @@
 \usepackage[numbered,framed]{matlab-prettifier}
 \usepackage{filecontents}
 \usepackage{import}
-%\usepackage{hyperref}
+\usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{verbatim}
 \usepackage[scaled]{helvet} %  helvetica for sanserif, scaled 95% by default
@@ -17,12 +17,12 @@
 \usepackage[section]{placeins}
 \setlength\parindent{0pt}
 
-%\hypersetup{
-    %colorlinks=true,
-    %linkcolor=black,
-    %filecolor=magenta,      
-    %urlcolor=cyan
-%}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=cyan
+}
 
 \lstset{
   style              = Matlab-editor,
@@ -60,5 +60,8 @@ University of Glasgow \\
 
 \bibliographystyle{apacite}
 \bibliography{interimreport} % Entries are in the refs.bib file
+
+\appendix
+\subimport{chapters/}{appendix}
 
 \end{document}
