@@ -27,6 +27,34 @@ Baker, D\BPBI W.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Ganesh%
+, Kumar%
+\BCBL {}\ \BBA {} Muppala%
+}{%
+Ganesh%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+ganesh2015design}
+\APACinsertmetastar {%
+ganesh2015design}%
+\begin{APACrefauthors}%
+Ganesh, B.%
+, Kumar, B\BPBI V.%
+\BCBL {}\ \BBA {} Muppala, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Design and Structural Analysis of Aircraft Floor Panel}
+  {Design and structural analysis of aircraft floor panel}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Advanced Engineering and
+  Global Technology}{3}{12}{1451--1460}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Liu%
 , Villavicencio%
 \BCBL {}\ \BBA {} Soares%

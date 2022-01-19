@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.6)  19 JAN 2022 22:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.6)  19 JAN 2022 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -401,7 +401,7 @@ Package caption Info: listings package is loaded.
 (/usr/share/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 25.
+Package hyperref Info: Option `colorlinks' set `true' on input line 26.
 
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-12-14 L3 backend support: PDF output (pdfTeX)
@@ -418,24 +418,24 @@ LaTeX Warning: Label `eqn:cog_formula' multiply defined.
 )
 \openout1 = `interimreport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 \c@maskedRefs=\count306
  (/usr/share/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
@@ -473,7 +473,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count313
-Package hyperref Info: Link coloring ON on input line 35.
+Package hyperref Info: Link coloring ON on input line 36.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -486,9 +486,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count314
 )
-LaTeX Info: Redefining \ref on input line 35.
-LaTeX Info: Redefining \pageref on input line 35.
-LaTeX Info: Redefining \nameref on input line 35.
+LaTeX Info: Redefining \ref on input line 36.
+LaTeX Info: Redefining \pageref on input line 36.
+LaTeX Info: Redefining \nameref on input line 36.
 
 (./interimreport.out) (./interimreport.out)
 \@outlinefile=\write3
@@ -535,7 +535,7 @@ Package caption Info: End \AtBeginDocument code.
 <GlaLogo.pdf, id=80, 1487.5575pt x 544.0325pt>
 File: GlaLogo.pdf Graphic file (type pdf)
 <use GlaLogo.pdf>
-Package pdftex.def Info: GlaLogo.pdf  used on input line 50.
+Package pdftex.def Info: GlaLogo.pdf  used on input line 51.
 (pdftex.def)             Requested size: 258.00539pt x 94.35208pt.
 [1
 
@@ -587,14 +587,14 @@ File: chapters//../figures/honeycomb_structure_in_aircraft_flooring.jpg Graphic
 Package pdftex.def Info: chapters//../figures/honeycomb_structure_in_aircraft_f
 looring.jpg  used on input line 59.
 (pdftex.def)             Requested size: 430.00462pt x 187.59753pt.
-<chapters//../figures/tank_equal_webs.jpg, id=156, 546.54187pt x 131.74219pt>
+<chapters//../figures/tank_equal_webs.jpg, id=160, 546.54187pt x 131.74219pt>
 File: chapters//../figures/tank_equal_webs.jpg Graphic file (type jpg)
 <use chapters//../figures/tank_equal_webs.jpg>
 Package pdftex.def Info: chapters//../figures/tank_equal_webs.jpg  used on inpu
 t line 73.
 (pdftex.def)             Requested size: 344.005pt x 82.92162pt.
  [7 <./chapters//../figures/honeycomb_structure_in_aircraft_flooring.jpg>]
-<chapters//../figures/simplified_web_structure.jpg, id=164, 398.99063pt x 379.4
+<chapters//../figures/simplified_web_structure.jpg, id=169, 398.99063pt x 379.4
 175pt>
 File: chapters//../figures/simplified_web_structure.jpg Graphic file (type jpg)
 
@@ -617,7 +617,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--124
 
  []
 
-<chapters//../figures/stress_distribution_on_central_supports.jpg, id=173, 1697
+<chapters//../figures/stress_distribution_on_central_supports.jpg, id=178, 1697
 .34125pt x 1318.9275pt>
 File: chapters//../figures/stress_distribution_on_central_supports.jpg Graphic 
 file (type jpg)
@@ -626,7 +626,7 @@ Package pdftex.def Info: chapters//../figures/stress_distribution_on_central_su
 pports.jpg  used on input line 129.
 (pdftex.def)             Requested size: 430.00462pt x 334.13847pt.
 [9] [10 <./chapters//../figures/stress_distribution_on_central_supports.jpg>]
-<chapters//../figures/stress_strain_steel_al.jpg, id=188, 941.5175pt x 626.34pt
+<chapters//../figures/stress_strain_steel_al.jpg, id=193, 941.5175pt x 626.34pt
 >
 File: chapters//../figures/stress_strain_steel_al.jpg Graphic file (type jpg)
 <use chapters//../figures/stress_strain_steel_al.jpg>
@@ -739,10 +739,10 @@ Package rerunfilecheck Info: File `interimreport.out' has not changed.
 (rerunfilecheck)             Checksum: 2D8DC29579443E8CA28C3F9B17B2AE7F;3648.
  ) 
 Here is how much of TeX's memory you used:
- 14752 strings out of 478353
- 231673 string characters out of 5854636
- 869461 words of memory out of 5000000
- 32437 multiletter control sequences out of 15000+600000
+ 14756 strings out of 478353
+ 231766 string characters out of 5854636
+ 869543 words of memory out of 5000000
+ 32440 multiletter control sequences out of 15000+600000
  418990 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,19n,79p,869b,1894s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -763,10 +763,10 @@ usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf
 e1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-su
 per/sfrm2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pf
 b></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on interimreport.pdf (20 pages, 691766 bytes).
+Output written on interimreport.pdf (20 pages, 695352 bytes).
 PDF statistics:
- 513 PDF objects out of 1000 (max. 8388607)
- 440 compressed objects within 5 object streams
- 200 named destinations out of 1000 (max. 500000)
+ 518 PDF objects out of 1000 (max. 8388607)
+ 443 compressed objects within 5 object streams
+ 201 named destinations out of 1000 (max. 500000)
  183 words of extra memory for PDF output out of 10000 (max. 10000000)
 

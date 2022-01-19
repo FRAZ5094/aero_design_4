@@ -14,45 +14,45 @@ Reallocated singl_function (elt_size=8) to 100 items from 50.
 Database file #1: interimreport.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No journal in baker2020engineering
-You've used 2 entries,
+You've used 3 entries,
             6951 wiz_defined-function locations,
-            1278 strings with 10996 characters,
-and the built_in function-call counts, 3866 in all, are:
-= -- 475
-> -- 33
-< -- 188
-+ -- 198
-- -- 4
-* -- 250
-:= -- 756
-add.period$ -- 8
-call.type$ -- 2
-change.case$ -- 34
+            1285 strings with 11197 characters,
+and the built_in function-call counts, 5753 in all, are:
+= -- 705
+> -- 52
+< -- 274
++ -- 289
+- -- 6
+* -- 374
+:= -- 1090
+add.period$ -- 12
+call.type$ -- 3
+change.case$ -- 51
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 91
-empty$ -- 141
-format.name$ -- 56
-if$ -- 717
+cite$ -- 7
+duplicate$ -- 145
+empty$ -- 217
+format.name$ -- 88
+if$ -- 1077
 int.to.chr$ -- 0
-int.to.str$ -- 6
+int.to.str$ -- 9
 missing$ -- 0
-newline$ -- 54
-num.names$ -- 16
-pop$ -- 47
+newline$ -- 80
+num.names$ -- 24
+pop$ -- 73
 preamble$ -- 1
-purify$ -- 8
+purify$ -- 12
 quote$ -- 0
-skip$ -- 255
+skip$ -- 380
 stack$ -- 0
-substring$ -- 215
-swap$ -- 53
-text.length$ -- 4
+substring$ -- 314
+swap$ -- 88
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 160
+type$ -- 240
 warning$ -- 1
-while$ -- 19
+while$ -- 31
 width$ -- 0
-write$ -- 68
+write$ -- 103
 (There was 1 warning)
