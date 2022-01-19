@@ -8,14 +8,7 @@
 \contentsline {subsection}{\numberline {4.2.2}Matlab code}{6}{}%
 \contentsline {subsection}{\numberline {4.2.3}Consequence of result of code on design decisions}{7}{}%
 \contentsline {section}{\numberline {4.3}Delivery release system and Tank Pressurisation (Anton and Fraser)}{7}{}%
-\contentsline {subsection}{\numberline {4.3.1}Methods of Analysis}{7}{}%
-\contentsline {subsubsection}{Control volume schematics}{7}{}%
-\contentsline {subsubsection}{Gravity assisted drop}{8}{}%
-\contentsline {subsubsection}{Bernoulli's}{8}{}%
-\contentsline {subsection}{\numberline {4.3.2}Benchmark Simulation using Bernoulli's}{9}{}%
-\contentsline {subsection}{\numberline {4.3.3}Delivery release system}{10}{}%
-\contentsline {subsection}{\numberline {4.3.4}Controller Design}{11}{}%
-\contentsline {section}{\numberline {4.4}Structural Support}{11}{}%
-\contentsline {chapter}{\numberline {5}Draft Plans for the Preliminary Design Stage}{12}{}%
-\contentsline {chapter}{\numberline {6}Conclusions}{13}{}%
-\contentsline {chapter}{\numberline {7}Project Plan}{14}{}%
+\contentsline {section}{\numberline {4.4}Structural Support}{7}{}%
+\contentsline {chapter}{\numberline {5}Draft Plans for the Preliminary Design Stage}{8}{}%
+\contentsline {chapter}{\numberline {6}Conclusions}{9}{}%
+\contentsline {chapter}{\numberline {7}Project Plan}{10}{}%

@@ -5,7 +5,7 @@ format long g
 
 Data = readtable("aircraft_items.xlsx"); %import data from excel file
 
-starting_mass=25600; %starting mass in kg (operational empty weight 25600)(Operational zero fuel mass 37875)
+starting_mass=37875; %starting mass in kg (operational empty weight 25600)(Operational zero fuel mass 37875)
 absoulute_cog_to_nose=14 + 1.719; %%distance from nose to the wing start + x_mgc 
 
 cg.x=-1*(absoulute_cog_to_nose+1.239056); % starting cg x position
