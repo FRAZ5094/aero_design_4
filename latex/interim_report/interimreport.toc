@@ -3,17 +3,19 @@
 \contentsline {chapter}{\numberline {3}Concept Summary and Aircraft Layout}{4}{chapter.3}%
 \contentsline {chapter}{\numberline {4}Design Analysis and Feasibility}{5}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Safety}{5}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Center of gravity (Fraser and Rafał)}{5}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Method of Analysis}{5}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Matlab code}{6}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Consequence of result of code on design decisions}{7}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Delivery release system and Tank Pressurisation (Anton and Fraser)}{7}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Structural Support (Matthew)}{7}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Floor structure}{7}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Beam calculations}{8}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Stress distribution}{10}{subsection.4.4.3}%
-\contentsline {chapter}{\numberline {5}Draft Plans for the Preliminary Design Stage}{13}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Conclusions}{14}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Project Plan}{15}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Center of gravity MATLAB code}{17}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Structural MATLAB code}{19}{appendix.B}%
+\contentsline {section}{\numberline {4.2}Calculating new mass (Rafał)}{5}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Center of gravity (Fraser and Rafał)}{6}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Method of Analysis}{6}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Matlab code}{7}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Consequence of result of code on design decisions}{8}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Delivery release system and Tank Pressurisation (Anton and Fraser)}{8}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Structural Support (Matthew)}{8}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Floor structure}{8}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Beam calculations}{9}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Stress distribution}{10}{subsection.4.5.3}%
+\contentsline {chapter}{\numberline {5}Draft Plans for the Preliminary Design Stage}{14}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Conclusions}{15}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Project Plan}{16}{chapter.7}%
+\contentsline {chapter}{\numberline {A}Components to remove}{18}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Center of gravity MATLAB code}{20}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Structural MATLAB code}{22}{appendix.C}%

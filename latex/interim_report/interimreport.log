@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.6)  20 JAN 2022 10:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.18)  20 JAN 2022 13:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -408,11 +408,7 @@ File: l3backend-pdftex.def 2021-12-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count305
 \l__pdf_internal_box=\box54
 )
-(./interimreport.aux
-
-LaTeX Warning: Label `fig:tank_equal_webs' multiply defined.
-
-)
+(./interimreport.aux)
 \openout1 = `interimreport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
@@ -462,7 +458,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.on input line 504.
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -528,7 +525,7 @@ LaTeX Info: Redefining \nameref on input line 36.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-<GlaLogo.pdf, id=32, 1487.5575pt x 544.0325pt>
+<GlaLogo.pdf, id=88, 1487.5575pt x 544.0325pt>
 File: GlaLogo.pdf Graphic file (type pdf)
 <use GlaLogo.pdf>
 Package pdftex.def Info: GlaLogo.pdf  used on input line 51.
@@ -563,118 +560,113 @@ Chapter 3.
 ]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--21
-
- []
-
-
-Package natbib Warning: Citation `baker2020engineering' on page 5 undefined on 
-input line 22.
-
-
-LaTeX Warning: Reference `eqn:cog_formula' on page 5 undefined on input line 22
-.
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 27.
 
 [5
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 54--57
 
-LaTeX Warning: Reference `eqn:cog_formula' on page 6 undefined on input line 33
-.
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 80--84
+
+ []
 
 
-LaTeX Warning: Reference `eqn:cg_x_example' on page 6 undefined on input line 3
-6.
+Underfull \hbox (badness 10000) in paragraph at lines 109--114
 
+ []
 
-LaTeX Warning: Reference `eqn:plane_cg_expanded' on page 6 undefined on input l
-ine 46.
-
-! Missing { inserted.
-<to be read again> 
-                   $
-l.59 \end{split}
-                
-? 
-! Emergency stop.
-<to be read again> 
-                   $
-l.59 \end{split}
-                
-End of file on the terminal!
-
- 
-Here is how much of TeX's memory you used:
- 13993 strings out of 478353
- 220230 string characters out of 5854636
- 531799 words of memory out of 5000000
- 31913 multiletter control sequences out of 15000+600000
- 415150 words of font info for 53 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 69i,19n,79p,308b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
-/figures/simplified_web_structure.jpg, id=173, 398.99063pt x 379.4
+[7]
+<chapters//../figures/honeycomb_structure_in_aircraft_flooring.jpg, id=181, 460
+.72125pt x 201.00093pt>
+File: chapters//../figures/honeycomb_structure_in_aircraft_flooring.jpg Graphic
+ file (type jpg)
+<use chapters//../figures/honeycomb_structure_in_aircraft_flooring.jpg>
+Package pdftex.def Info: chapters//../figures/honeycomb_structure_in_aircraft_f
+looring.jpg  used on input line 131.
+(pdftex.def)             Requested size: 430.00462pt x 187.59753pt.
+ [8]
+<chapters//../figures/tank_equal_webs.jpg, id=191, 546.54187pt x 131.74219pt>
+File: chapters//../figures/tank_equal_webs.jpg Graphic file (type jpg)
+<use chapters//../figures/tank_equal_webs.jpg>
+Package pdftex.def Info: chapters//../figures/tank_equal_webs.jpg  used on inpu
+t line 145.
+(pdftex.def)             Requested size: 344.005pt x 82.92162pt.
+<chapters//../figures/simplified_web_structure.jpg, id=194, 398.99063pt x 379.4
 175pt>
 File: chapters//../figures/simplified_web_structure.jpg Graphic file (type jpg)
 
 <use chapters//../figures/simplified_web_structure.jpg>
 Package pdftex.def Info: chapters//../figures/simplified_web_structure.jpg  use
-d on input line 120.
-(pdftex.def)             Requested size: 344.005pt x 327.14372pt.
- [8 <./chapters//../figures/honeycomb_structure_in_aircraft_flooring.jpg> <./ch
-apters//../figures/tank_equal_webs.jpg>] [9 <./chapters//../figures/simplified_
-web_structure.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 158--160
+d on input line 156.
+(pdftex.def)             Requested size: 258.00539pt x 245.35635pt.
+ [9 <./chapters//../figures/honeycomb_structure_in_aircraft_flooring.jpg> <./ch
+apters//../figures/tank_equal_webs.jpg>] [10 <./chapters//../figures/simplified
+_web_structure.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 193--195
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--160
+Underfull \hbox (badness 10000) in paragraph at lines 193--195
 
  []
 
-<chapters//../figures/stress_distribution_on_central_supports.jpg, id=188, 1697
+<chapters//../figures/stress_distribution_on_central_supports.jpg, id=210, 1697
 .34125pt x 1318.9275pt>
 File: chapters//../figures/stress_distribution_on_central_supports.jpg Graphic 
 file (type jpg)
 <use chapters//../figures/stress_distribution_on_central_supports.jpg>
 Package pdftex.def Info: chapters//../figures/stress_distribution_on_central_su
-pports.jpg  used on input line 165.
-(pdftex.def)             Requested size: 430.00462pt x 334.13847pt.
-[10] [11 <./chapters//../figures/stress_distribution_on_central_supports.jpg>]
-<chapters//../figures/stress_strain_steel_al.jpg, id=202, 941.5175pt x 626.34pt
+pports.jpg  used on input line 200.
+(pdftex.def)             Requested size: 344.005pt x 267.30273pt.
+[11]
+<chapters//../figures/stress_strain_steel_al.jpg, id=219, 941.5175pt x 626.34pt
 >
 File: chapters//../figures/stress_strain_steel_al.jpg Graphic file (type jpg)
 <use chapters//../figures/stress_strain_steel_al.jpg>
 Package pdftex.def Info: chapters//../figures/stress_strain_steel_al.jpg  used 
-on input line 177.
-(pdftex.def)             Requested size: 430.00462pt x 286.05554pt.
-) (./chapters/draft_plans_for_the_prelimary_design_stage.tex [12 <./chapters//.
-./figures/stress_strain_steel_al.jpg>]
+on input line 212.
+(pdftex.def)             Requested size: 344.005pt x 228.84634pt.
+ [12 <./chapters//../figures/stress_distribution_on_central_supports.jpg>]) (./
+chapters/draft_plans_for_the_prelimary_design_stage.tex [13 <./chapters//../fig
+ures/stress_strain_steel_al.jpg>]
 Chapter 5.
-) (./chapters/conclusions.tex [13
+) (./chapters/conclusions.tex [14
 
 ]
 Chapter 6.
-) (./chapters/project_plan.tex [14
+) (./chapters/project_plan.tex [15
 
 ]
 Chapter 7.
-) (./interimreport.bbl [15
+) (./interimreport.bbl [16
 
-]) (./chapters/appendix.tex [16
+]) (./chapters/appendix.tex [17
 
 ]
 Appendix A.
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 2.
 
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 2.
+
+[18
+
+] [19]
+Appendix B.
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 36
+.
 (/usr/share/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 10.20007pt on input line 2.
+(Font)              scaled to size 10.20007pt on input line 36.
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 6.80005pt on input line 2.
+(Font)              scaled to size 6.80005pt on input line 36.
 
 (./chapters//../../../code/cg_interia/cg2.m
 Package textcomp Info: Symbol \textminus not provided by
@@ -700,14 +692,13 @@ Package textcomp Info: Symbol \textminus not provided by
 Package textcomp Info: Symbol \textminus not provided by
 (textcomp)             font family fvm in TS1 encoding.
 (textcomp)             Default family used instead on input line 48.
- [17
-
-]
 Package textcomp Info: Symbol \textminus not provided by
 (textcomp)             font family fvm in TS1 encoding.
 (textcomp)             Default family used instead on input line 65.
-) [18]
-Appendix B.
+) [20
+
+] [21]
+Appendix C.
 (./chapters//../../../code/structural_support/structural.m
 Package textcomp Info: Symbol \textminus not provided by
 (textcomp)             font family fvm in TS1 encoding.
@@ -733,7 +724,7 @@ Package textcomp Info: Symbol \textminus not provided by
 Package textcomp Info: Symbol \textminus not provided by
 (textcomp)             font family fvm in TS1 encoding.
 (textcomp)             Default family used instead on input line 57.
- [19
+ [22
 
 ]
 Package textcomp Info: Symbol \textminus not provided by
@@ -745,25 +736,25 @@ Package textcomp Info: Symbol \textminus not provided by
 Package textcomp Info: Symbol \textminus not provided by
 (textcomp)             font family fvm in TS1 encoding.
 (textcomp)             Default family used instead on input line 81.
-)) [20]
+)) [23]
 (./interimreport.aux)
 
-LaTeX Warning: There were undefined references.
+Package rerunfilecheck Warning: File `interimreport.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package rerunfilecheck Info: File `interimreport.out' has not changed.
-(rerunfilecheck)             Checksum: 2D8DC29579443E8CA28C3F9B17B2AE7F;3648.
+Package rerunfilecheck Info: Checksums for `interimreport.out':
+(rerunfilecheck)             Before: 5342CF0C28C9DDF1592CDE2659B62CC4;3960
+(rerunfilecheck)             After:  6928F9ED93AFDA3BEF61BBB56F27AD56;4012.
  ) 
 Here is how much of TeX's memory you used:
- 14767 strings out of 478353
- 231973 string characters out of 5854636
- 869787 words of memory out of 5000000
- 32446 multiletter control sequences out of 15000+600000
+ 14780 strings out of 478353
+ 232161 string characters out of 5854635
+ 876966 words of memory out of 5000000
+ 32451 multiletter control sequences out of 15000+600000
  418990 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,19n,79p,869b,1894s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,19n,79p,869b,1858s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/
 texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fonts/enc/dvips/c
 m-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
@@ -781,10 +772,10 @@ usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf
 e1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-su
 per/sfrm2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pf
 b></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on interimreport.pdf (21 pages, 698976 bytes).
+Output written on interimreport.pdf (24 pages, 704513 bytes).
 PDF statistics:
- 528 PDF objects out of 1000 (max. 8388607)
- 452 compressed objects within 5 object streams
- 206 named destinations out of 1000 (max. 500000)
- 183 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 559 PDF objects out of 1000 (max. 8388607)
+ 480 compressed objects within 5 object streams
+ 214 named destinations out of 1000 (max. 500000)
+ 199 words of extra memory for PDF output out of 10000 (max. 10000000)
 

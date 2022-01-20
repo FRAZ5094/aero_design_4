@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.6)  20 JAN 2022 10:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.18)  20 JAN 2022 13:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -18,7 +18,7 @@ End of file on the terminal!
  
 Here is how much of TeX's memory you used:
  16 strings out of 478353
- 490 string characters out of 5854636
+ 490 string characters out of 5854635
  295989 words of memory out of 5000000
  18244 multiletter control sequences out of 15000+600000
  403430 words of font info for 27 fonts, out of 8000000 for 9000

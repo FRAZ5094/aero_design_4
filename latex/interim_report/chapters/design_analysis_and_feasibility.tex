@@ -3,6 +3,42 @@
 Safety here
 
 
+\section{Calculating new mass (Rafał)}
+The mass of the airplane has to be calculated in order to determine how much retardant the aircraft can take.
+The Maximum Payload Mass (MPM) of the aircraft prior to any modifications was calculated by subtracting the Operating Mass Empty (OME) from the Maximum Zero-Fuel Mass (MZFM). To further increase the maximum payload of the aircraft, the cabin components listed in the Table in appendix \ref{appendix:to_remove_table} were stripped down and removed, this further decreased the mass of the OME. The mass of the OME increases with the installation of the firefighting components listed in Table \ref{tab:added_components}, this has the effect of reducing the total MPM. Table 3 illustrates this process.
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+Component                 & Mass of Components {[}kg{]} \\
+\hline
+Retardant Tank and Piping & 2201.68                     \\
+Crew Weight               & 180                         \\
+Tank Supports             & 180                         \\
+\hline
+Total:                    & 2561.68                    \\
+\hline
+\end{tabular}
+\caption{Components added to the aircraft}
+  \label{tab:added_components}
+\end{table}
+
+\begin{table}[]
+\begin{tabular}{|c|c|c|c|}
+\hline
+                              & Avro RJ100 original & Stripped cabin & Firefighter \\
+\hline
+OME {[}kg{]}                  & 25600               & 18984          & 21546       \\
+MZFM {[}kg{]}                 & 37875               & 37875          & 37875       \\
+Cabin Components {[}kg{]}     & N/A                 & 6616           & 6616        \\
+Firefighting systems {[}kg{]} & N/A                 & N/A            & 2561.68     \\
+MPM {[}kg{]}                  & 12275               & 18891          & 16329.32   \\
+\hline
+\end{tabular}
+\caption{}
+\label{tab:my-table}
+\end{table}
 
 \section{Center of gravity (Fraser and Rafał)}
 
@@ -33,7 +69,7 @@ According to \cite{baker2020engineering} the formula for the x,y and z value of 
 The aircraft mass and center of gravity, before excess weight removal, can effectively be represented in equation \ref{eqn:cog_formula} as a particle with known mass and position.
 By representing the aircraft in this way, the center of gravity after the removal of unnecessary weight can be calculated.
 The mass of the components to be removed are taken as negative, removing them from the original total mass.
-This method for calculating the new center of mass position for the x axis of the plane is shown in the equation \ref{eqn:cg_x_example}
+This method for calculating the new center of mass position for the x axis of the plane is shown in the equation \ref{eqn:cg_new_formula_start}
 
 
 \begin{equation}
@@ -98,7 +134,7 @@ To support the retardant tank in the aircraft selected, we initially tested the 
 \end{figure}
 \FloatBarrier
 
-As the floor panel is to be kept, further structural support for the placement of the tank was considered.  A consideration could be to change the material of the floor beams from aluminum to CFRP (Carbon Fibre Reinforced Plastics), these have a lower weight whilst having higher strength and durability compared to an Aluminum floor. 
+As the floor panel is to be kept, further structural support for the placement of the tank was considered. A consideration could be to change the material of the floor beams from aluminum to CFRP (Carbon Fibre Reinforced Plastics), these have a lower weight whilst having higher strength and durability compared to an Aluminum floor. 
 
 \subsection{Beam calculations}
 The final length of the tank was estimated using a standard radius of 1.03m which would suitably fit in the aircraft cabin and using a length of 6.55m which resulted in a $15.14 m^3$ volume tank. To support the tank four webs were designed to calculate the resulting stresses and loads, these webs were equally spaced with one at each end as shown in Figure \ref{fig:tank_equal_webs}
@@ -112,14 +148,14 @@ The final length of the tank was estimated using a standard radius of 1.03m whic
 \end{figure}
 \FloatBarrier
 
-For the initial calculations the web shape is simplified as shown in figure 3 which will be further refined using FE analysis to gather an accurate final value for the stress distribution. The structure is split into 3 sections as shown and the data representing the sections is displayed in Table (Web structure geometry dimensions).
+For the initial calculations the web shape is simplified as shown in figure \ref{fig:simplified_web_structure} which will be further refined using FE analysis to gather an accurate final value for the stress distribution. The structure is split into 3 sections as shown and the data representing the sections is displayed in Table \ref{tab:web_structure_geometry_dimensions}
 
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width= 0.8\linewidth]{../figures/simplified_web_structure.jpg}
+\includegraphics[width= 0.6\linewidth]{../figures/simplified_web_structure.jpg}
 \caption{Simplified web structure}
-  \label{fig:tank_equal_webs}
+  \label{fig:simplified_web_structure}
 \end{figure}
 \FloatBarrier
 
@@ -128,10 +164,9 @@ For the initial calculations the web shape is simplified as shown in figure 3 wh
   \begin{tabular}{|c|c|c|}
     \hline
     Sections & Length(m) & Height (m) \\
+    \hline
     1 & 2.06 & 0.27 \\
-    \hline
     2 & 0.2 & 1.17 \\
-    \hline
     3 & 9.2 & 1.17 \\
     \hline
   \end{tabular}
@@ -162,7 +197,7 @@ From these simple calculations a stress distribution plot was produced (Figure \
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width= \linewidth]{../figures/stress_distribution_on_central_supports.jpg}
+\includegraphics[width= 0.8\linewidth]{../figures/stress_distribution_on_central_supports.jpg}
 \caption{Stress distribution on central supports}
   \label{fig:stress_distribution_on_central_supports}
 \end{figure}
@@ -174,7 +209,7 @@ The maximum stress value is equivalent to $0.12 MPa$ at the top of the structure
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width= \linewidth]{../figures/stress_strain_steel_al.jpg}
+\includegraphics[width= 0.8\linewidth]{../figures/stress_strain_steel_al.jpg}
   \caption{Stress-strain curve for steel and aluminum, \cite{liu2013failure}}
   \label{fig:stress_strain_steel_al}
 \end{figure}
