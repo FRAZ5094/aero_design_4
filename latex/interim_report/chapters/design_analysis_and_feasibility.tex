@@ -10,7 +10,7 @@ Seeing as the RJ100 is originally a commercial aircraft, converting it to a fire
 for example passenger seats, kitchen and cabin bins ect.
 This allows the plane to carry more retardant, meaning better performance for this specific application.
 However, by removing the excess weight, the center of gravity is shifted and thus will need to be recalculated.
-The RJ100 has an acceptable safe range for the center of gravity as a percentage of the chord length is 28\% to 44\%.
+The RJ100 has an acceptable safe range for the center of gravity as a percentage of the mean aerodynamic chord is 28\% to 44\%.
 The plane cannot fly safely if the value of the center of gravity along the x-axis of the plane is outwith this range.
 The center of gravity also has to remain within this range before, during and after the ejection of retardant.
 
@@ -33,12 +33,48 @@ According to \cite{baker2020engineering} the formula for the x,y and z value of 
 The aircraft mass and center of gravity, before excess weight removal, can effectively be represented in equation \ref{eqn:cog_formula} as a particle with known mass and position.
 By representing the aircraft in this way, the center of gravity after the removal of unnecessary weight can be calculated.
 The mass of the components to be removed are taken as negative, removing them from the original total mass.
+This method for calculating the new center of mass position for the x axis of the plane is shown in the equation \ref{eqn:cg_x_example}
+
+
+\begin{equation}
+\begin{split}
+  \bar{x}_{plane_{new}} = \frac{ \sum_{i=1}^{n}{m_{i} x_{i}} - \sum_{j=1}^{m}{m_{j} x_{j}}}{ \sum_{i=1}^{n}{m_{i}} - \sum_{j=1}^{m}{m_{j}}} \\
+\end{split}
+\label{eqn:cg_new_formula_start}
+\end{equation}
+Where: \\
+$n$ = number of items total \\
+$m$ = number of items to be removed \\
+
+Substituting:
+\begin{equation}
+\begin{split}
+  \sum_{i=1}^{n}{m_{i} x_{i}} = m_{plane} \bar{x}_{plane} \\
+\end{split}
+\label{eqn:m_plane_x_plane_formula}
+\end{equation}
+and:
+\begin{equation}
+\begin{split}
+  \sum_{i=1}^{n}{m_{i}} = m_{plane} \\
+\end{split}
+\label{eqn:m_plane_formula}
+\end{equation}
+Into equation \ref{eqn:cg_new_formula_start}:
+
+\begin{equation}
+\begin{split}
+  \bar{x}_{plane_{new}} = \frac{ m_{plane} x_{plane} - \sum_{j=1}^{m}{m_{j} x_{j}}}{ m_{plane} - \sum_{j=1}^{m}{m_{j}}} \\
+\end{split}
+\label{eqn:cg_new_formula_end}
+\end{equation}
 
 \subsection{Matlab code}
-Applying the method above, code was written in MATLAB to to calculate the new cg position through implementing equation \ref{eqn:cog_formula}, see appendix \ref{appendix:cg_code}. \\  \\
+Applying the method above, code was written in MATLAB to to calculate the new cg position through implementing equation \ref{eqn:cg_new_formula_end}, see appendix \ref{appendix:cg_code}. \\  \\
 The data for the components to be removed were formatted into an excel file named “aircraftitems.xlsx” and then imported to be represented in the variable “Data”.
 This data included each component's mass and it's center of gravity position.
 These position's were taken relative to the standard aircraft axis with the origin at the nose of the aircraft.
+Importing the data like this makes it easier to tweak values of masses and position of items on the aircraft to find the desired center of gravity position.
 
 \subsection{Consequence of result of code on design decisions}
 
@@ -116,7 +152,7 @@ The formulae used in these calculations are all standard structural equations as
   Stress & = \sigma = \frac{M}{Z_{e}} \\ \\
   Load & = \sigma \times Length \times Thickness
 \end{split}
-\label{eqn:cog_formula}
+  \label{eqn:structures_equations}
 \end{equation}
 
 The tank is treated as a uniformly distributed load along the length of the supports and calculations were made at the supports located centrally as these will have the maximum value of stress. The calculations can be seen in appendix \ref{appendix:structural_code}.

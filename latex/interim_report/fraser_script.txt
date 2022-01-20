@@ -1,0 +1,6 @@
+In order to maximize the amount of retardant the airplane can carry, it is beneficial to removed unnecessary weight now that the plane is no longer a commercial aircraft.
+Some of the items that are now unnecessary due to the conversion are passenger seats, the kitchen and the cabin bins.
+A consequence of removing all this excess weight is that the center of gravity position of the plane will move.
+It is important to know where this new center of gravity position is to ensure that plane can fly safely before, during and after the ejection of retardant.
+The safe range for the RJ100 aircraft for the center of gravity along the x axis of the plane is between 28% and 44% of the meal aerodynamic chord.
+

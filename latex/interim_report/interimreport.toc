@@ -6,14 +6,14 @@
 \contentsline {section}{\numberline {4.2}Center of gravity (Fraser and Rafał)}{5}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Method of Analysis}{5}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Matlab code}{6}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Consequence of result of code on design decisions}{6}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Delivery release system and Tank Pressurisation (Anton and Fraser)}{6}{section.4.3}%
+\contentsline {subsection}{\numberline {4.2.3}Consequence of result of code on design decisions}{7}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Delivery release system and Tank Pressurisation (Anton and Fraser)}{7}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Structural Support (Matthew)}{7}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Floor structure}{7}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Beam calculations}{7}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Stress distribution}{8}{subsection.4.4.3}%
-\contentsline {chapter}{\numberline {5}Draft Plans for the Preliminary Design Stage}{12}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Conclusions}{13}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Project Plan}{14}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Center of gravity MATLAB code}{16}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Structural MATLAB code}{18}{appendix.B}%
+\contentsline {subsection}{\numberline {4.4.2}Beam calculations}{8}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Stress distribution}{10}{subsection.4.4.3}%
+\contentsline {chapter}{\numberline {5}Draft Plans for the Preliminary Design Stage}{13}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Conclusions}{14}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Project Plan}{15}{chapter.7}%
+\contentsline {chapter}{\numberline {A}Center of gravity MATLAB code}{17}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Structural MATLAB code}{19}{appendix.B}%
